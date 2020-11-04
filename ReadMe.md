@@ -1,5 +1,13 @@
-Frog's BioCraft
+# Frog's Fashion Souls
 
-This is the readme, it should appear at the bottom of the github page. Hopefully justin laughs when he read that i said his dick is small. ;)
+This Mod is aiming to add various Custom-Modeled Armour set to Minecraft.
+All crafting recipes will *only* use vanilla materials, and is fully compatible with any other armour mod, as it will only use vanilla items and armour tiers.
 
-no u
+
+### Current Armour Sets
+
+#### Original Content
+*Crown
+
+#### Dark Souls
+*Faraam

@@ -1,7 +1,0 @@
-Frogmanfrogman
-hello justin : 333
-topkek
-this is a test of the new git management from atom
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Press this nerd</a>
-
-Video being watched for guidance: https://www.youtube.com/watch?v=3Uqnb8TqjTY&ab_channel=SilentChaos512 (time = 10:22)
