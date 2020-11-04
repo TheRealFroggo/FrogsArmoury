@@ -1,0 +1,48 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[34,)" #mandatory
+
+license="All rights reserved"
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="frogsarmoury" #mandatory
+
+version="1.6.3-0.1.0" #mandatory
+
+displayName="Frog's Armoury" #mandatory
+
+#updateJSONURL="http://myurl.me/" #optional
+
+#displayURL="http://example.com/" #optional
+
+logoFile="frogmod.png" #optional
+
+credits="Thanks to Youtube for teaching me how to java." #optional
+
+authors="RealFroggo, __Frostwolf__" #optional
+
+description='''
+This mod is intended to add a variety of animals, foods and crops.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.frogsarmoury]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[34,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.frogmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
