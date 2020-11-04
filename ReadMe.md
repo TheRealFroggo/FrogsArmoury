@@ -7,7 +7,7 @@ All crafting recipes will *only* use vanilla materials, and is fully compatible 
 ### Current Armour Sets
 
 #### Original Content
-*Crown
+* Crown
 
 #### Dark Souls
-*Faraam
+* Faraam
