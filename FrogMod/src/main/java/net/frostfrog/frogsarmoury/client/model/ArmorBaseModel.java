@@ -51,7 +51,6 @@ public abstract class ArmorBaseModel extends BipedModel
         armorLeftLeg.setRotationPoint(0.0F, 0.0F, 0.0F);
         bipedLeftLeg.addChild(armorLeftLeg);
 
-
         armorRightBoot = new ModelRenderer(this);
         armorRightBoot.setRotationPoint(0.0F, 0.0F, 0.0F);
         bipedRightLeg.addChild(armorRightBoot);

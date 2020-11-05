@@ -21,10 +21,24 @@ public class ModItems
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", ItemBase::new);
 
     // Armours
+    // Crown
     public static final RegistryObject<ArmorItem> CROWN = ITEMS.register("crown",
-            ()->new ArmorBaseItem(ArmorMaterial.IRON, EquipmentSlotType.HEAD, new Item.Properties().group(FrogsArmoury.TAB),
-                    () -> ClientArmorHelper::Crown));
-
+            ()->new ArmorBaseItem(ArmorMaterial.IRON, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Crown));
+    // Barbaric
+    public static final RegistryObject<ArmorItem> BARBARIC_HELMET = ITEMS.register("barbaric_helmet",
+            ()-> new ArmorBaseItem(ModArmourMaterial.FARAAM, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Barbaric));
+    public static final RegistryObject<ArmorItem> BARBARIC_CHESTPLATE = ITEMS.register("barbaric_chestplate",
+            ()-> new ArmorBaseItem(ModArmourMaterial.FARAAM, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Barbaric));
+    public static final RegistryObject<ArmorItem> BARBARIC_LEGGINGS = ITEMS.register("barbaric_leggings",
+            ()-> new ArmorBaseItem(ModArmourMaterial.FARAAM, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Barbaric));
+    public static final RegistryObject<ArmorItem> BARBARIC_BOOTS = ITEMS.register("barbaric_boots",
+            ()-> new ArmorBaseItem(ModArmourMaterial.FARAAM, EquipmentSlotType.FEET,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Barbaric));
+    // Faraam
     public static final RegistryObject<ArmorItem> FARAAM_HELMET = ITEMS.register("faraam_helmet",
             ()-> new ArmorItem(ModArmourMaterial.FARAAM, EquipmentSlotType.HEAD, new Item.Properties().group(FrogsArmoury.TAB)));
     public static final RegistryObject<ArmorItem> FARAAM_CHESTPLATE = ITEMS.register("faraam_chestplate",
