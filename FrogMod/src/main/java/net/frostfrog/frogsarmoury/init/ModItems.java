@@ -2,7 +2,6 @@ package net.frostfrog.frogsarmoury.init;
 
 import net.frostfrog.frogsarmoury.FrogsArmoury;
 import net.frostfrog.frogsarmoury.armour.ModArmourMaterial;
-import net.frostfrog.frogsarmoury.client.model.Crown;
 import net.frostfrog.frogsarmoury.items.ArmorBaseItem;
 import net.frostfrog.frogsarmoury.items.ItemBase;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -38,6 +37,20 @@ public class ModItems
     public static final RegistryObject<ArmorItem> BARBARIC_BOOTS = ITEMS.register("barbaric_boots",
             ()-> new ArmorBaseItem(ModArmourMaterial.FARAAM, EquipmentSlotType.FEET,
                     new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Barbaric));
+
+    // Royal
+    public static final RegistryObject<ArmorItem> ROYAL_HELMET = ITEMS.register("royal_helmet",
+            ()-> new ArmorBaseItem(ArmorMaterial.IRON, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Royal));
+    public static final RegistryObject<ArmorItem> ROYAL_CHESTPLATE = ITEMS.register("royal_chestplate",
+            ()-> new ArmorBaseItem(ArmorMaterial.IRON, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Royal));
+    public static final RegistryObject<ArmorItem> ROYAL_LEGGINGS = ITEMS.register("royal_leggings",
+            ()-> new ArmorBaseItem(ArmorMaterial.IRON, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Royal));
+    public static final RegistryObject<ArmorItem> ROYAL_BOOTS = ITEMS.register("royal_boots",
+            ()-> new ArmorBaseItem(ArmorMaterial.IRON, EquipmentSlotType.FEET,
+                    new Item.Properties().group(FrogsArmoury.TAB), ()-> ClientArmorHelper::Royal));
     // Faraam
     public static final RegistryObject<ArmorItem> FARAAM_HELMET = ITEMS.register("faraam_helmet",
             ()-> new ArmorItem(ModArmourMaterial.FARAAM, EquipmentSlotType.HEAD, new Item.Properties().group(FrogsArmoury.TAB)));

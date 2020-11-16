@@ -1,4 +1,17 @@
 {
   "item.frogsarmoury.test_item": "Test Item",
+
+  "item.frogsarmoury.crown": "Crown",
+
+  "item.frogsarmoury.barbaric_helmet": "Barbaric Helmet",
+  "item.frogsarmoury.barbaric_chestplate": "Barbaric Chestplate",
+  "item.frogsarmoury.barbaric_leggings": "Barbaric Leggings",
+  "item.frogsarmoury.barbaric_boots": "Barbaric Boots",
+
+  "item.frogsarmoury.royal_helmet": "Royal Helmet",
+  "item.frogsarmoury.royal_chestplate": "Royal Chestplate",
+  "item.frogsarmoury.royal_leggings": "Royal Leggings",
+  "item.frogsarmoury.royal_boots": "Royal Boots",
+
   "itemGroup.Armours": "Frog's Armours"
 }

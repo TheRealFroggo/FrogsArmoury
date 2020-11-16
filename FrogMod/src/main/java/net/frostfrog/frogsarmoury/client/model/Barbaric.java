@@ -187,19 +187,19 @@ public class Barbaric extends ArmorBaseModel
         cube_r13.setTextureOffset(30, 4).addBox(1.6066F, 0.17F, -0.5F, 2.0F, 1.0F, 1.0F, 0.0F, false);
 
         armorRightLeg = new ModelRenderer(this);
-        armorRightLeg.setRotationPoint(0.0F, 0.0F, 0.0F);
+        armorRightLeg.setRotationPoint(-2.0F, 12.0F, 0.0F);
         bipedRightLeg.addChild(armorRightLeg);
 
         armorRightBoot = new ModelRenderer(this);
-        armorRightBoot.setRotationPoint(0.0F, 0.0F, 0.0F);
+        armorRightBoot.setRotationPoint(-2.0F, 12.0F, 0.0F);
         bipedRightLeg.addChild(armorRightBoot);
 
         armorLeftLeg = new ModelRenderer(this);
-        armorLeftLeg.setRotationPoint(0.0F, 0.0F, 0.0F);
+        armorLeftLeg.setRotationPoint(2.0F, 12.0F, 0.0F);
         bipedLeftLeg.addChild(armorLeftLeg);
 
         armorLeftBoot = new ModelRenderer(this);
-        armorLeftBoot.setRotationPoint(0.0F, 0.0F, 0.0F);
+        armorLeftBoot.setRotationPoint(2.0F, 12.0F, 0.0F);
         bipedLeftLeg.addChild(armorLeftBoot);
     }
 }
